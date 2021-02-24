@@ -441,7 +441,7 @@ export class PreviewComponent implements OnInit {
   }
 
   navigateBack() {
-    const url = Utils.getURL(this.router.url, "file-upload", 3);
+    let url = Utils.getURL(this.router.url, "demo-screen", 3);
     this.router.navigateByUrl(url + `/${this.preRegId}`);
   }
 

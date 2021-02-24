@@ -22,7 +22,9 @@ export class ParentComponent implements OnInit {
       this.componentName = 'DemographicComponent';
     } else if (route_parts[3] === 'file-upload') {
       this.componentName = 'FileUploadComponent';
-    } else if (route_parts[5] === 'pick-center') {
+    } else if (route_parts[3] === 'demo-screen') {
+      this.componentName = 'DemoScreenComponent';
+    }else if (route_parts[5] === 'pick-center') {
       this.componentName = 'CenterSelectionComponent';
     } else if (route_parts[5].includes('pick-time')) {
       this.componentName = 'TimeSelectionComponent';

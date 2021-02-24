@@ -1192,8 +1192,8 @@ export class FileUploadComponent implements OnInit, OnDestroy {
       this.displayMessage("Required", message + docList);
     } else {*/
       localStorage.setItem("modifyDocument", "false");
-      let url = Utils.getURL(this.router.url, "summary");
-      this.router.navigateByUrl(url + `/${this.preRegId}/preview`);
+      let url = Utils.getURL(this.router.url, "demo-screen");
+      this.router.navigateByUrl(url + `/${this.preRegId}`);
     /*}*/
   }
 
