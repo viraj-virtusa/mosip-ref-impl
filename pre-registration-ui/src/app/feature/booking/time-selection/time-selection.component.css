@@ -6,13 +6,13 @@
   align-items: center;
 }
 .time-selection__title-card {
-  color: #ff4081;
+  color: #f67725;
   padding: 0px;
   display: flex;
   align-items: center;
   white-space: nowrap;
   margin: 0px 2vw;
-  border-bottom: 1px solid #ff4081;
+  border-bottom: 1px solid #f67725;
   border-radius: 0px;
   /* z-index:  -1; */
   position: relative;
@@ -85,7 +85,7 @@
 }
 
 .time-selection__time-slots-container {
-  border-top: 1px solid #ff4081;
+  border-top: 1px solid #f67725;
   margin-right: 20px;
   padding: 0;
   border-radius: 0px;
@@ -153,7 +153,7 @@
   /* padding: 0px 53px;
     border: 1px solid red;
     margin: 5px; */
-  background-color: #ff4081;
+  background-color: #f67725;
   border: none;
   color: white;
   padding: 0.8rem 4rem;
@@ -177,7 +177,7 @@
 .user__btn:active {
   border: 1px solid gray;
   background-color: white;
-  color: #ff4081;
+  color: #f67725;
 }
 
 .card {
@@ -277,11 +277,11 @@
 }
 
 .selected {
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
 }
 
 .selected-card {
-  background-color: #ff4081 !important;
+  background-color:  #f67725 !important;
   color: white !important;
 }
 
@@ -299,8 +299,8 @@
 }
 .user-back-btn {
   background-color: #ffffff;
-  border: 1px solid #ff4081;
-  color: #ff4081;
+  border: 1px solid #f67725;
+  color: #f67725;
   padding: 0.8rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -312,8 +312,8 @@
 }
 .user-book_later-btn {
   background-color: #ffffff;
-  border: 1px solid #ff4081;
-  color: #ff4081;
+  border: 1px solid #f67725;
+  color: #f67725;
   padding: 0.8rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -325,7 +325,7 @@
   text-transform: uppercase;
 }
 .user-continue-btn {
-  background-color: #ff4081;
+ background-color:  #f67725;
   border: none;
   color: white;
   padding: 0.8rem 2rem;

@@ -40,11 +40,11 @@
 .user header {
   margin: 0;
   font-weight: bold;
-  color: #fd518c;
+  color: #f67725;
 }
 
 .user hr {
-  border-top: 1.5px solid #fd518c;
+  border-top: 1.5px solid #f67725;
   position: relative;
   left: -31.8px;
   margin-top: 0.5rem;
@@ -224,7 +224,7 @@ mat-icon {
   font-family: Helvetica, Regular;
   font-size: 0.8rem;
   margin: 10px 0px 10px 0px;
-  color: #fd518c;
+  color: #f67725;
   width: 80%;
   max-width: 124px;
   padding: 0.2rem 0;
@@ -232,7 +232,7 @@ mat-icon {
 }
 
 .user__genderAndForeigner .mat-button-toggle-checked {
-  background-color: #fd518c;
+  background-color: #f67725;
   color: white;
 }
 
@@ -276,7 +276,7 @@ mat-icon {
 }
 
 .user__btn {
-  background-color: #ff4081;
+  background-color: #f67725;
   border: none;
   color: white;
   padding: 0.8rem 2rem;
@@ -292,9 +292,9 @@ mat-icon {
 }
 
 .user__btn--back {
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
   background-color: white;
-  color: #ff4081;
+  color: #f67725;
   margin-left: 2rem;
   text-transform: uppercase;
   display: none;

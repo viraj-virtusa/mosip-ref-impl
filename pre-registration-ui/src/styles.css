@@ -76,7 +76,7 @@ body {
   color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 4px;
-  background: rgba(255, 64, 129, 1);
+  background: rgb(246,119,37);
 }
 
 .btn_axn-sec {
@@ -86,8 +86,8 @@ body {
   font-size: 0.8rem;
   font-family: Roboto;
   font-weight: 500;
-  color: rgba(255, 64, 129, 1);
-  border: 1px solid rgba(255, 64, 129, 1);
+  color: rgb(246,119,37);
+  border: 1px solid rgb(246,119,37);
   border-radius: 4px;
   background: rgba(255, 255, 255, 1);
 }
@@ -96,7 +96,7 @@ body {
 .btn_axn-sec:hover,
 .btn_axn-pri.page_btn:hover,
 .btn_axn-sec.page_btn:hover {
-  background: rgba(230, 58, 116, 1);
+  background: rgb(246,119,37);
   color: rgba(255, 255, 255, 1);
   border: none;
 }
@@ -114,7 +114,7 @@ body {
 .btn_axn-sec:active,
 .btn_axn-pri.page_btn:active,
 .btn_axn-sec.page_btn:active {
-  background: rgba(179, 45, 90, 1);
+  background: rgb(246,119,37);
   color: rgba(255, 255, 255, 1);
   border: none;
 }
@@ -152,13 +152,13 @@ body {
 }
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple):hover,
 .select-option > mat-option:hover {
-  background-color: rgba(230, 58, 116, 1) !important;
+  background-color: rgb(246,119,37) !important;
   color: rgba(255, 255, 255, 1) !important;
 }
 
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple):active,
 .select-option > mat-option:active {
-  background-color: rgba(179, 45, 90, 1) !important;
+  background-color: rgb(246,119,37) !important;
   color: rgba(255, 255, 255, 1) !important;
 }
 
@@ -181,11 +181,11 @@ body {
 }
 
 .mat-slide-toggle .mat-slide-toggle-thumb {
-  background-color: #ff4081;
+  background-color: #f67725;
 }
 
 .mat-slide-toggle .mat-slide-toggle-bar {
-  background-color: rgba(255, 64, 129, 0.54);
+  background-color: rgb(246,119,37);
 }
 
 .mat-button-toggle-focus-overlay {

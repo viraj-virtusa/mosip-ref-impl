@@ -10,9 +10,10 @@ import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { AuthInterceptorService } from '../shared/auth-interceptor.service';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
-  imports: [CommonModule, AppRoutingModule, SharedModule],
+    imports: [CommonModule, AppRoutingModule, SharedModule, ReactiveFormsModule, FormsModule],
   declarations: [HeaderComponent, FooterComponent, AboutUsComponent, FaqComponent, ContactComponent],
   exports: [HeaderComponent, FooterComponent, SharedModule],
   providers: [{ provide: HTTP_INTERCEPTORS, useClass: AuthInterceptorService, multi: true }]

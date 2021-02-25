@@ -44,14 +44,14 @@
 }
 
 .ack__header {
-  color: #ff4081;
+  color: #f67725;
   width: 100%;
   font-size: 1rem;
 }
 
 .ack__header-container {
   padding: 0;
-  border-bottom: 1px solid #ff4081;
+  border-bottom: 1px solid #f67725;
   z-index: -1;
   position: relative;
 }
@@ -59,18 +59,18 @@
 .ack__header-container hr {
   left: 0;
   width: 100%;
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
   height: 1px;
-  color: #ff4081;
+  color: #f67725;
   margin-top: 36.5px;
 }
 
 .ack__header hr {
   left: 0;
   width: 100%;
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
   height: 1px;
-  color: #ff4081;
+  color: #f67725;
   margin-top: -11.5px !important;
 }
 
@@ -91,8 +91,8 @@
 
 .ack-book_later-btn {
   background-color: #fff;
-  border: 1px solid #ff4081;
-  color: #ff4081;
+  border: 1px solid #f67725;
+  color: #f67725;
   padding: 0px 2rem;
   text-align: center;
   text-decoration: none;
@@ -102,7 +102,7 @@
   border-radius: 0;
 }
 .ack-continue-btn {
-  background-color: #ff4081;
+  background-color: #f67725;
   border: none;
   border-radius: 0;
   color: #fff;

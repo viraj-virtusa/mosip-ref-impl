@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'https://integ.mosip.io/'
+  BASE_URL: 'https://aws.digitalid.lgcc.gov.lk/'
 };
 
 /*

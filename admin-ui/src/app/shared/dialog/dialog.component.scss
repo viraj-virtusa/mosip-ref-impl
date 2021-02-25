@@ -42,7 +42,7 @@ h5 {
   padding: 4px 15px;
 }
 .footer-button {
-  border: 0.8px solid #FF4081;
+  border: 0.8px solid #f67725;
   border-radius: 2px;
   margin: 5px;
   text-transform: capitalize;
@@ -88,15 +88,15 @@ h5 {
     margin-bottom: 0px;
     padding: 0 16px;
     .mat-button {
-      outline: 1px solid #FF4081 !important;
+      outline: 1px solid #f67725 !important;
       margin: 0 10px;
       border-radius: 0;
-      color: #FF4081;
+      color: #f67725;
     }
   }
   .pop-up-footer {
     .mat-button:focus {
-      background: #FF4081 !important;
+      background: #f67725 !important;
       color: #ffffff;
       outline: 0 !important;
     }

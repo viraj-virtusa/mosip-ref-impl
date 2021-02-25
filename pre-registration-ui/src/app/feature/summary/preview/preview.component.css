@@ -32,7 +32,7 @@
 
 .preview__header {
   padding: 0;
-  color: #ff4081;
+  color: #f67725;
 }
 
 .preview__header-container {
@@ -43,17 +43,17 @@
 .preview__header-container hr {
   left: 0;
   width: 100%;
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
   height: 1px;
-  color: #ff4081;
+  color: #f67725;
 }
 
 .preview__header hr {
   left: 0;
   width: 100%;
-  border: 1px solid #ff4081;
+  border: 1px solid #f67725;
   height: 1px;
-  color: #ff4081;
+  color: #f67725;
 }
 
 .preview__body-content-container {
@@ -76,7 +76,7 @@
 }
 
 .preview__footer {
-  color: #ff4081;
+  color: #f67725;
   padding: 0 2rem;
 }
 
@@ -121,8 +121,8 @@
 }
 .user-back-btn {
   background-color: #ffffff;
-  border: 1px solid #ff4081;
-  color: #ff4081;
+  border: 1px solid #f67725;
+  color: #f67725;
   padding: 0.8rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -133,8 +133,8 @@
 }
 .user-book_later-btn {
   background-color: #ffffff;
-  border: 1px solid #ff4081;
-  color: #ff4081;
+  border: 1px solid #f67725;
+  color: #f67725;
   padding: 0.8rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -145,7 +145,7 @@
   margin-right: 0px;
 }
 .user-continue-btn {
-  background-color: #ff4081;
+  background-color: #f67725;
   border: none;
   color: white;
   padding: 0.8rem 2rem;
