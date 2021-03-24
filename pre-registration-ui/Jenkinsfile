@@ -1,0 +1,53 @@
+pipeline {
+    agent any
+	environment {
+		registryCredential = 'dockerHub'
+	}
+    tools {
+        maven 'M2_HOME'
+        nodejs 'node'
+    }
+    
+    stages{
+        stage('SCM Clone'){
+            steps{
+                git branch: '1.1.3-develop-cicd', url: 'https://github.com/ICTASL/mosip-ref-impl.git'
+            }
+        }
+        stage('SonarQube analysis') {
+            environment {
+                scannerHome = tool 'sonar_scanner'
+                
+            }
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                   sh "${scannerHome}/bin/sonar-scanner"
+                }
+            }
+        }
+        stage("Quality Gate") {
+            steps {
+                timeout(time: 15, unit: 'MINUTES') {
+                   waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+		stage('Building And Tag Docker Image') {
+		  steps{
+			dir('pre-registration-ui') { 
+				sh 'docker build -t preregclient:$BUILD_NUMBER .'
+				sh 'docker tag preregclient preregclient_build_$BUILD_NUMBER:$preregclient_build_$BUILD_NUMBER'
+			}
+		  }
+		}
+		stage('Publish image to Docker Hub') {
+          
+		  steps {
+			withDockerRegistry([ credentialsId: registryCredential, url: "" ]) {
+			    sh 'docker push preregclient_build_$BUILD_NUMBER:$preregclient_build_$BUILD_NUMBER' 
+			}
+				  
+		  }
+        }
+    }
+}
