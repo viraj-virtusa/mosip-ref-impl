@@ -1,5 +1,4 @@
-# Stage 1 EDIT 66666
-#########################
+# Stage 1 EDIT 12345
 
 FROM node as build-step
 RUN mkdir -p /app
