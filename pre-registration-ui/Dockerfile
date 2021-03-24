@@ -1,4 +1,4 @@
-# Stage 1 EDIT
+# Stage 1 EDIT 2
 
 FROM node as build-step
 RUN mkdir -p /app
