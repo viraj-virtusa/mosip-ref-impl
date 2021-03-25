@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install -g npm@7.7.4
 COPY . /app
-RUN npm run ng build --prod --base-href
+RUN sudo npm run ng build --prod --base-href
 
 FROM nginx
 COPY default.conf /etc/nginx/conf.d/
