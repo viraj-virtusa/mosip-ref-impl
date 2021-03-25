@@ -4,7 +4,7 @@ FROM node as build-step
 RUN mkdir -p /app
 WORKDIR /app
 COPY package.json /app
-RUN npm install
+RUN npm install -g npm@7.7.4
 COPY . /app
 RUN npm run ng build --prod --base-href
 
