@@ -10,4 +10,4 @@ RUN npm run ng build --prod --base-href
 
 FROM nginx
 COPY default.conf /etc/nginx/conf.d/
-COPY --from=build-step dist /usr/share/nginx/html
+COPY --from=build-step dist/pre-registration/ /usr/share/nginx/html
